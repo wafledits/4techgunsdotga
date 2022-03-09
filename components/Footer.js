@@ -9,6 +9,7 @@ export default function Footer()
             <a href="a.png">Built with KarbML 6&trade;</a>
             <p className={styles.comiksand}>POWERED BY KARBIS STUDIO BACKPAGE</p>
             <p className={styles.comiksand}>ALSO POWERED BY PAKISTAN SERVER IN LAHORE WITH 66954MS PING</p>
+            <p className={styles.defaultText}>oh and also <a href="https://www.twitch.tv/unidentified_dragons">https://www.twitch.tv/unidentified_dragons</a></p>
         </div>
     )
 }
