@@ -4,7 +4,7 @@ import Logo from '../../components/Logo'
 import defstyles from '../../styles/GlobalStyles.module.css'
 import Image from 'next/image'
 
-export default function Home() {
+export default function SubwooferCollection() {
   return (
     <div className={defstyles.dark}>
       <Header />
