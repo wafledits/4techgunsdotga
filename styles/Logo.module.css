@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "FiraCode NF";
+    src: url(../public/firaCodeNF.ttf);
+}
+
+
+.logoContainer {
+    display: flex;
+    margin: 4px;
+    font-size: 24px;
+    font-family:"FiraCode NF";
+    color: white;
+}

@@ -1,33 +1,16 @@
 import { useRouter } from 'next/router'
+import styles from '../styles/GlobalStyles.module.css'
+import Link from 'next/link'
 
 export default function Header() {
   return (
     <div>
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
+      <Link href="/" ><a className={styles.defaultLinkButton}>&#xf7db; Home</a></Link>
+      |
+      <Link href="/about"><a className={styles.defaultLinkButton}>&#xf7fb; About</a></Link>
+      |
+      <Link href="/pyseries"><a className={styles.defaultLinkButton}>The Py Series</a></Link>
+      <hr />
     </div>
-  )
-}
-
-const Link = ({ children, href }) => {
-  const router = useRouter()
-  return (
-    <a
-      href="#"
-      onClick={(e) => {
-        e.preventDefault()
-        // typically you want to use `next/link` for this usecase
-        // but this example shows how you can also access the router
-        // and use it manually
-        router.push(href)
-      }}
-    >
-      {children}
-      <style jsx>{`
-        a {
-          margin-right: 10px;
-        }
-      `}</style>
-    </a>
   )
 }
