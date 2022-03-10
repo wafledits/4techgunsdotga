@@ -18,6 +18,12 @@ export default function Home() {
       <p className={defstyles.defaultText}>Nervo Py - For the Nervo Pros Discord server (by Todd)</p>
       <Image src="/Pys/Server Profiles/nervostan_py.png" width="128" height="128" />
       <Footer />
+
+      <style jsx global>{`
+        body {
+          background-color:rgb(27, 27, 27);;
+        }
+      `}</style>
     </div>
   )
 }

@@ -24,6 +24,12 @@ export default function PyClassics() {
       <p className={defstyles.defaultText}>Tech Py - A Py that fits my old colour scheme</p>
       <Image src="/Pys/Classics/tech_py.png" width="128" height="128" />
       <Footer />
+
+      <style jsx global>{`
+        body {
+          background-color:rgb(27, 27, 27);;
+        }
+      `}</style>
     </div>
   )
 }

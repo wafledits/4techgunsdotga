@@ -13,6 +13,11 @@ export default function About() {
       <p className={styles.defaultText}>I am a 13 year old programmer and video editor, with the impossible power of being a dumbass</p>
       <p className={styles.defaultText}>My {moment().format("YYYY") - 2008}th birthday is {moment([moment().format("YYYY"), 8, 19]).fromNow()} (August 19)</p>
       <Footer />
+      <style jsx global>{`
+        body {
+          background-color:rgb(27, 27, 27);;
+        }
+      `}</style>
     </div>
   )
 }

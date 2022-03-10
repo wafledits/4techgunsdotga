@@ -23,6 +23,11 @@ export default function PersonInfo() {
                 <p className={styles.defaultText}>No info on {name} could be found.</p>
             </div>}
             <Footer />
+            <style jsx global>{`
+                body {
+                background-color:rgb(27, 27, 27);;
+                }
+            `}</style>
         </div>
     )
 }

@@ -13,6 +13,11 @@ export default function Home() {
       <p className={defstyles.defaultText}>I am not a web designer as you can tell by this uglyass site Why did i make this</p>
       <p className={defstyles.defaultText}><i>Clique</i> the top navigation bar buttons to view more stuff on this site, there are easter eggs hidden in some places</p>
       <Footer />
+      <style jsx global>{`
+        body {
+          background-color:rgb(27, 27, 27);;
+        }
+      `}</style>
     </div>
   )
 }

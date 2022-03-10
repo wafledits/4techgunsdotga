@@ -21,6 +21,11 @@ export default function OtherPySeries() {
       <p className={defstyles.defaultText}>Karbis Py - Karbis</p>
       <Image src="/Pys/Others/karbis_py.png" width="128" height="128" />
       <Footer />
+      <style jsx global>{`
+        body {
+          background-color:rgb(27, 27, 27);;
+        }
+      `}</style>
     </div>
   )
 }

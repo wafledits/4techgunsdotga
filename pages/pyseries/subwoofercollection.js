@@ -21,6 +21,12 @@ export default function SubwooferCollection() {
       <p className={defstyles.defaultText}>Subwoofer Py</p>
       <Image src="/Pys/Subwoofer Py Collection/subwoofer_py.png" width="128" height="128" />
       <Footer />
+
+      <style jsx global>{`
+        body {
+          background-color:rgb(27, 27, 27);;
+        }
+      `}</style>
     </div>
   )
 }

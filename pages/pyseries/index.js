@@ -21,6 +21,12 @@ export default function PySeriesHome() {
       <Link href="/pyseries/subwoofercollection"><a className={defstyles.defaultLinkButton}>Subwoofer Py Collection</a></Link>
       
       <Footer />
+
+      <style jsx global>{`
+        body {
+          background-color:rgb(27, 27, 27);;
+        }
+      `}</style>
     </div>
   )
 }
