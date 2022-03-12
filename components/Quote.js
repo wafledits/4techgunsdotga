@@ -7,9 +7,9 @@ export default function Quote() {
         ["mx blue", "ribkix"],
         ["3", "Maknix"],
         ["Karby was here :DDD", "karbis"],
-        ["flaky is hot", "Ragarnoky"],
+        //["flaky is hot", "Ragarnoky"],
         ["Rio wasn't here", "Rako"],
-        ["PAKISTAN ZINDABAD", "Ragarnoky"],
+        //["PAKISTAN ZINDABAD", "Ragarnoky"],
         ["The future of Nervo is in our hands...", "kanimou"]
     ]
     let random = quotes[Math.floor(Math.random()*quotes.length)]
